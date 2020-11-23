@@ -1,0 +1,18 @@
+.container {
+    
+    background-color: white;
+}
+
+.brand__logo{
+    border-radius: 100%;
+    margin: 3%;
+}
+
+.item-style{
+    padding:3%;
+}
+
+
+@media (min-width: 1200px){
+
+}
