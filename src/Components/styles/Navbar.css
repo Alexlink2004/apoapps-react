@@ -1,15 +1,21 @@
 .container {
     
     background-color: white;
+    border-radius: 30px;
 }
 
 .brand__logo{
     border-radius: 100%;
-    margin: 3%;
+    margin: 1%;
 }
 
 .item-style{
-    padding:3%;
+    padding:1%;
+}
+
+.gh-logo{
+    width: 10%;
+    height: 10%;
 }
 
 

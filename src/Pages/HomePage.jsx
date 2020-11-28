@@ -1,12 +1,14 @@
 import React from 'react';
-import Navbar from '../Components/Navbar.jsx';
+
 import Card from '../Components/Card.jsx';
+import './styles/HomePage.css';
 function HomePage () {
     return <div className="HomePage">
-        <header> 
-            <Navbar />
-        </header>
-        <body>
+        
+
+
+        <h1 className="title" > Mis proyectos:</h1>
+        <div>
             <div className="card-columns">
             <Card
             imgURL='https://play-lh.googleusercontent.com/ilouuYQ_h6BCwtW6yDiXk_pFfKNn0CEQjxmngtFxT48_TN-Fe7ZVuos0iVEiFHpAGQ=s180-rw'
@@ -26,8 +28,10 @@ function HomePage () {
             description="Videojuego creado para pasar el tiempo :)"
 
             />
+            
+            
             </div>
-        </body>
+        </div>
     </div>
 }
 
