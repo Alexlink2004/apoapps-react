@@ -5,30 +5,31 @@ import AboutMe from "./Pages/AboutMe.jsx";
 import Navbar from "../src/Components/Navbar.jsx";
 import AboutProduct from "./Pages/AboutProduct.jsx";
 import Page404 from './Pages/404.jsx'
+
 import "./App.css";
 import "./Assets/Logos/TrigoMathLogo.webp";
 import virusLogo from  './Assets/Logos/alexvsviruslogo.png';
 
 export default function app() {
   return (
-    <Router>
+    <Router >
       <header>
         <Navbar />
       </header>
       <Switch>
-        <Route exact path="/404">
+        <Route exact path="/404" component={Page404}>
           <Page404/>
         </Route>
-        <Route exact path="/">
+        <Route exact path="/" component={HomePage}>
           <HomePage />
         </Route>
-        <Route  path="/apoapps-react">
+        <Route exact path="/apoapps-react" component={HomePage}>
           <HomePage />
         </Route>
-        <Route  path="/me">
+        <Route exact path="/me" component={AboutMe}>
           <AboutMe />
         </Route>
-        <Route exact path="/tri-go-math">
+        <Route exact path="/tri-go-math" >
           <AboutProduct
             imgURL="https://play-lh.googleusercontent.com/ilouuYQ_h6BCwtW6yDiXk_pFfKNn0CEQjxmngtFxT48_TN-Fe7ZVuos0iVEiFHpAGQ=s180-rw"
             title="Tri-Go Math"

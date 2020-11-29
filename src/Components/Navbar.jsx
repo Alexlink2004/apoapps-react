@@ -31,7 +31,7 @@ function NavBar(props) {
       <div className="collapse navbar-collapse" id="collapsibleNavbar">
       <ul className="navbar-nav ">
           <li className="nav-item item-style " >
-            <a className="nav-link" href="/me">
+            <a className="nav-link" href="#/me">
               Acerca de mi
             </a>
           </li>
