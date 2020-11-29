@@ -15,6 +15,7 @@ function HomePage () {
             title="Tri-Go Math"
             description="App para aprendizaje de matematicas"
             aboutLink="#/tri-go-math"
+            
 
             />
             <Card

@@ -1,4 +1,4 @@
-import { Switch, Route, HashRouter as Router } from "react-router-dom";
+import {Link, Switch, Route, HashRouter as Router } from "react-router-dom";
 
 import HomePage from "./Pages/HomePage.jsx";
 import AboutMe from "./Pages/AboutMe.jsx";
@@ -20,6 +20,7 @@ export default function app() {
         <Route exact path="/404" component={Page404}>
           <Page404/>
         </Route>
+        
         <Route exact path="/" component={HomePage}>
           <HomePage />
         </Route>
@@ -36,8 +37,9 @@ export default function app() {
             titleImage=""
             description="Herramienta para estudiantes, la cual ayuda a realizar su tarea de matematicas de una manera sencilla"
             appState="Beta"
-            appStore="/"
-            playStore="/"
+            appStore="https://apps.apple.com/es/app/tri-go-math/id1525513476"
+            playStore="https://play.google.com/store/apps/details?id=com.apodaca.math_helper&hl=en_US&gl=US"
+            
           />
         </Route>
         <Route exact path="/endless-beats">
@@ -48,8 +50,8 @@ export default function app() {
             titleImage=""
             description="Videojuego ritmico, en el cual consiste en esquivar hexagonos y subir de nivel, tiene personajes desbloqueables"
             appState="Alpha"
-            appStore="/"
-            playStore="/"
+            appStore="https://apps.apple.com/us/app/endless-beats/id1524127084"
+            playStore="https://play.google.com/store/apps/details?id=com.apodaca.game&hl=es"
           />
         </Route>
         <Route exact path="/alex-vs-virus">
@@ -60,8 +62,8 @@ export default function app() {
             titleImage=""
             description="Videojuego el cual consiste en esquivar virus y tener el mayor puntaje posible"
             appState="Early access"
-            appStore="/404"
-            playStore="/https://play.google.com/store/apps/details?id=com.apodaca.app&hl=en&gl=US"
+            appStore="#/404"
+            playStore="https://play.google.com/store/apps/details?id=com.apodaca.app&hl=en&gl=US"
           />
         </Route>
       </Switch>
