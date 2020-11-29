@@ -2,7 +2,7 @@ import "./styles/AboutMe.css";
 
 function AboutMe() {
   return (
-    <div className=" container ">
+    <div className=" container">
       <br />
       <div className="row">
         <div className="col-md mx-auto">
