@@ -66,6 +66,7 @@ export default function app() {
             playStore="https://play.google.com/store/apps/details?id=com.apodaca.app&hl=en&gl=US"
           />
         </Route>
+        
       </Switch>
     </Router>
   );

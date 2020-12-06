@@ -6,19 +6,15 @@
 
 .brand__logo{
     border-radius: 100%;
-    margin: 1%;
+    margin-right: 20px;
+    
 }
 
-.item-style{
-    padding:1%;
-}
+
 
 .gh-logo{
-    width: 10%;
-    height: 10%;
+    width: 50px;
+    height: 50px;
 }
 
 
-@media (min-width: 1200px){
-
-}

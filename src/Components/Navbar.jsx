@@ -1,6 +1,6 @@
 import "./styles/Navbar.css";
-import logo from "../Assets/Logos/apoapps_logo.png";
-import ghLogo from "../Assets/Logos/github-logo.png";
+import logo from "../Assets/Logos/tiny-apoapps-logo.svg";
+//import ghLogo from "../Assets/Logos/github-logo.png";
 function NavBar(props) {
   return (
     <nav className="navbar navbar-expand-md bg-light navbar-light">
@@ -9,8 +9,8 @@ function NavBar(props) {
       <img
         className="brand__logo "
         src={logo}
-        width="10%"
-        height="10%"
+        width="50px"
+        height="50px"
         alt="Logo principal"
         
       />
@@ -30,19 +30,19 @@ function NavBar(props) {
 
       <div className="collapse navbar-collapse" id="collapsibleNavbar">
       <ul className="navbar-nav ">
-          <li className="nav-item item-style " >
+          <li className="nav-item  " >
             <a className="nav-link" href="#/me">
               Acerca de mi
             </a>
           </li>
-          <li className="nav-item item-style">
+          <li className="nav-item ">
             <a className="nav-link" href="https://www.youtube.com/channel/UC-LPXAK9zMiCOCWMZiO23tA">
               Mi youtube 
             </a>
             </li>
-            <li className="nav-item item-style">
+            <li className="nav-item ">
             <a className="nav-link" href="https://github.com/Alexlink2004">
-              <img src={ghLogo}alt="Github Logo" className="gh-logo"/> 
+              Github
             </a>
             </li>
         </ul>
