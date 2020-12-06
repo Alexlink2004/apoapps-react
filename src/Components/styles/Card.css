@@ -2,7 +2,7 @@
 
 
 .portfolio__item{
-    border-radius: 30px;
+    border-radius: 20px;
     box-shadow: 1px 0px 12px  #9e9e9e;
     margin: 10px;
     
@@ -16,7 +16,9 @@
 
 
 .c-img{
-    border-radius: 30px;
+    border-radius: 20px;
+    width: 300;
+    height: 300;
 }
 
 
